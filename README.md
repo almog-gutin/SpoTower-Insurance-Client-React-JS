@@ -6,7 +6,7 @@
   <p align="center">
     This client-side application is part of the SpoTower insurance assingment built with React and Javascript. 
   </p>
-    <a href="https://github.com/almoggutin/SpoTower-Insurance-Assignment-Ser">View Server Repostiory</a>
+    <a href="https://github.com/almoggutin/SpoTower-Insurance-Assignment-Server-Node-Javascript">View Server Repostiory</a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
