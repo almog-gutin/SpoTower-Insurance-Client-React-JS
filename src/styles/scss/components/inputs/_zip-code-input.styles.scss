@@ -1,0 +1,34 @@
+@use '../../base' as *;
+
+.zip-code__input-container {
+    display: flex;
+    gap: 1rem;
+
+    width: 100%;
+    height: 3rem;
+    padding: 0 1rem;
+
+    background-color: $offWhite;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+    & > div {
+        width: 1.3rem;
+        height: 100%;
+
+        svg {
+            width: 100% !important;
+            height: 100%;
+            color: $blue;
+        }
+    }
+
+    input {
+        width: 100%;
+        height: 100%;
+
+        background-color: transparent;
+        border: none;
+        font-size: 1.2rem;
+    }
+}

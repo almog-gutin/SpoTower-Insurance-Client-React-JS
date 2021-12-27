@@ -1,0 +1,11 @@
+@use '../../base' as *;
+
+.main-footer {
+    @extend %flex-center;
+
+    width: 100vw;
+    height: 5rem;
+
+    background-color: #333;
+    color: #9f9f9f;
+}

@@ -1,0 +1,35 @@
+@use '../base' as *;
+
+.page-not-found {
+    @extend %flex-center;
+    flex-direction: column;
+
+    width: 100vw;
+    min-height: calc(100vh - 5rem);
+
+    background-color: $white;
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+
+        @media (min-width: 36rem) {
+            font-size: 5rem;
+        }
+    }
+
+    .btn__home {
+        @extend %flex-center;
+
+        width: 10rem;
+        height: 3rem;
+
+        background-color: $orange;
+        color: $white;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #ad4500;
+        }
+    }
+}

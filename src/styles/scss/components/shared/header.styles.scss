@@ -1,0 +1,20 @@
+@use '../../base' as *;
+
+.main-header {
+    @extend %flex-center;
+
+    width: 100vw;
+    height: 5rem;
+
+    background-color: $orange;
+
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        cursor: pointer;
+
+        @media (min-width: 36rem) {
+            font-size: 2rem;
+        }
+    }
+}
